@@ -10,19 +10,19 @@ Plateforme web complète pour connecter étudiants et entreprises tunisiennes, a
 
 
 
-- [Technologies](#technologies)-  **Page d'accueil** : Présentation de la plateforme
+-  **Page d'accueil** : Présentation de la plateforme
 
-- [Fonctionnalités](#fonctionnalités)-  **Authentification** : Connexion et inscription (Étudiant/Entreprise)
+- -  **Authentification** : Connexion et inscription (Étudiant/Entreprise)
 
-- [Installation](#installation)-  **Offres de stage** : Recherche et filtrage d'opportunités
+- -  **Offres de stage** : Recherche et filtrage d'opportunités
 
-- [Configuration](#configuration)-  **Dashboard** : Suivi des candidatures et statistiques
+--  **Dashboard** : Suivi des candidatures et statistiques
 
-- [Démarrage](#démarrage)-  **Profil** : Gestion du profil et compétences
+--  **Profil** : Gestion du profil et compétences
 
-- [Structure du projet](#structure-du-projet)-  **Forum** : Discussions communautaires
+- -  **Forum** : Discussions communautaires
 
-- [API Endpoints](#api-endpoints)-  **Mentorat** : Connexion avec des mentors professionnels
+--  **Mentorat** : Connexion avec des mentors professionnels
 
 - ℹ️ **À propos** : Histoire et équipe de Forstek
 
@@ -46,7 +46,7 @@ cd front-end
 
 - **Flask** - Framework Python léger
 
-- **SQLAlchemy** - ORM pour la base de données### 2️⃣ Installer les dépendances
+- **SQLAlchemy** - ORM pour la base de données### Installer les dépendances
 
 - **SQLite** - Base de données```bash
 
@@ -58,7 +58,7 @@ cd front-end
 
 
 
-##  Fonctionnalités### 3️⃣ Lancer le serveur
+##  Fonctionnalités###  Lancer le serveur
 
 ```bash
 
