@@ -1,4 +1,4 @@
-# 🎓 Forstek - Plateforme de Stages en Tunisie# 🎓 Forstek - Plateforme de Stages pour Étudiants Tunisiens
+#  Forstek - Plateforme de Stages en Tunisie#  Forstek - Plateforme de Stages pour Étudiants Tunisiens
 
 
 
@@ -6,31 +6,31 @@ Plateforme web complète pour connecter étudiants et entreprises tunisiennes, a
 
 
 
-## 📋 Table des matières## ✨ Fonctionnalités
+##  Table des matières##  Fonctionnalités
 
 
 
-- [Technologies](#technologies)- 🏠 **Page d'accueil** : Présentation de la plateforme
+- [Technologies](#technologies)-  **Page d'accueil** : Présentation de la plateforme
 
-- [Fonctionnalités](#fonctionnalités)- 🔐 **Authentification** : Connexion et inscription (Étudiant/Entreprise)
+- [Fonctionnalités](#fonctionnalités)-  **Authentification** : Connexion et inscription (Étudiant/Entreprise)
 
-- [Installation](#installation)- 💼 **Offres de stage** : Recherche et filtrage d'opportunités
+- [Installation](#installation)-  **Offres de stage** : Recherche et filtrage d'opportunités
 
-- [Configuration](#configuration)- 📊 **Dashboard** : Suivi des candidatures et statistiques
+- [Configuration](#configuration)-  **Dashboard** : Suivi des candidatures et statistiques
 
-- [Démarrage](#démarrage)- 👤 **Profil** : Gestion du profil et compétences
+- [Démarrage](#démarrage)-  **Profil** : Gestion du profil et compétences
 
-- [Structure du projet](#structure-du-projet)- 💬 **Forum** : Discussions communautaires
+- [Structure du projet](#structure-du-projet)-  **Forum** : Discussions communautaires
 
-- [API Endpoints](#api-endpoints)- 🎯 **Mentorat** : Connexion avec des mentors professionnels
+- [API Endpoints](#api-endpoints)-  **Mentorat** : Connexion avec des mentors professionnels
 
 - ℹ️ **À propos** : Histoire et équipe de Forstek
 
-## 🚀 Technologies- 📞 **Contact** : Formulaire de contact et informations
+##  Technologies-  **Contact** : Formulaire de contact et informations
 
 
 
-### Frontend## 🚀 Installation Rapide
+### Frontend##  Installation Rapide
 
 - **Next.js 14** - Framework React avec App Router
 
@@ -58,7 +58,7 @@ cd front-end
 
 
 
-## ✨ Fonctionnalités### 3️⃣ Lancer le serveur
+##  Fonctionnalités### 3️⃣ Lancer le serveur
 
 ```bash
 
@@ -68,7 +68,7 @@ cd front-end
 
 - ✅ Connexion avec authentification 2FA
 
-- ✅ Codes 2FA envoyés par email (Brevo SMTP)### 4️⃣ Ouvrir dans le navigateur
+- ✅ Codes 2FA envoyés par email (Brevo SMTP)###  Ouvrir dans le navigateur
 
 - ✅ Tokens JWT avec expiration 24hVisitez : **http://localhost:3000**
 
@@ -106,7 +106,7 @@ cd front-end
 
 ├── app/                    # Pages (Next.js App Router)
 
-## 📦 Installation│   ├── page.tsx           # Accueil
+##  Installation│   ├── page.tsx           # Accueil
 
 │   ├── login/             # Connexion
 
@@ -140,7 +140,7 @@ cd front-back-forstek│   ├── Navbar.tsx
 
 ```bash
 
-npm install## 📝 Commandes Disponibles
+npm install##  Commandes Disponibles
 
 ```
 
@@ -158,7 +158,7 @@ python -m venv .venv| `npm run lint` | Vérifier le code |
 
 
 
-# Windows## ⚠️ Pourquoi `npm install` est nécessaire ?
+# Windows##  Pourquoi `npm install` est nécessaire ?
 
 .\.venv\Scripts\activate
 
@@ -220,13 +220,13 @@ Pour plus de détails, consultez [INSTALLATION.md](./INSTALLATION.md)
 
 ### Frontend - Configuration API
 
-## 🔐 Configuration Git (pour les contributeurs)
+## 🔐Configuration Git (pour les contributeurs)
 
 Le fichier `lib/api-config.ts` est déjà configuré pour pointer vers `http://localhost:5000/api`.
 
 ```bash
 
-## 🎯 Démarragegit config user.name "Votre Nom"
+##  Démarragegit config user.name "Votre Nom"
 
 git config user.email "votre@email.com"
 
@@ -255,7 +255,7 @@ npm run dev
 - **Frontend** : http://localhost:3000
 - **Backend API** : http://localhost:5000/api
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 front-back-forstek/
@@ -294,7 +294,7 @@ front-back-forstek/
 └── README.md                     # Ce fichier
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentification
 
@@ -318,7 +318,7 @@ front-back-forstek/
 |---------|----------|-------------|
 | POST | `/api/upload` | Upload de CV (PDF uniquement) |
 
-## 🔐 Authentification
+##  Authentification
 
 ### Flux d'inscription
 
@@ -346,14 +346,14 @@ front-back-forstek/
 
 ## 🛡️ Sécurité
 
-- ✅ Mots de passe hashés avec bcrypt
-- ✅ Tokens JWT avec expiration
-- ✅ Authentification à deux facteurs
-- ✅ Validation des données côté backend
-- ✅ CORS configuré pour localhost en développement
-- ✅ Protection des routes sensibles
+-  Mots de passe hashés avec bcrypt
+-  Tokens JWT avec expiration
+- uthentification à deux facteurs
+- Validation des données côté backend
+-  CORS configuré pour localhost en développement
+-  Protection des routes sensibles
 
-## 🐛 Debugging
+##  Debugging
 
 ### Voir les codes 2FA
 
@@ -384,30 +384,36 @@ Get-NetTCPConnection -LocalPort 5000 | Select-Object -ExpandProperty OwningProce
 
 ## 📝 Modifications récentes
 
-### ✅ Correction flux d'inscription (12/11/2025)
+###  Correction flux d'inscription (12/11/2025)
 - Redirection `/register` → `/login` (au lieu de `/dashboard`)
 - Message de succès avec pré-remplissage email
 - Flow complet : Inscription → Login → 2FA → Dashboard
 
-### ✅ Gestion profil complète
+###  Gestion profil complète
 - 11 champs profil étudiant (bio, formation, liens sociaux)
 - Sauvegarde en temps réel via API
 - Gestion erreurs 401 avec déconnexion automatique
 
-### ✅ Navigation conditionnelle
+###  Navigation conditionnelle
 - Boutons "Connexion/Commencer" cachés si authentifié
 - Avatar + notifications affichés si connecté
 - Appliqué sur 4 pages : offres, roadmaps, mentorship, forum
 
-## 👨‍💻 Développeur
+##  Développeur
 
-**Hazem Ben Brahim**
+**Hazem Bellili**
 - GitHub: [@hazem02b](https://github.com/hazem02b)
-- Email: hazem@forstek.tn
-
-## 📄 Licence
-
-MIT License - Voir le fichier LICENSE pour plus de détails.
+- Email: hazem.bellili@supcom.tn
+- **nourhen toumi**
+- GitHub: [Nourhene612](https://github.com/Nourhene612)
+- Email: nourhen.toumi@supcom.tn
+.- **Hayet Ben amor**
+- GitHub: 
+- Email: hayet.benamor@supcom.tn
+-  **ghassen dalleji**
+- GitHub: 
+- Email:ghassen.daalleji@supcom.tn
+.
 
 ---
 
